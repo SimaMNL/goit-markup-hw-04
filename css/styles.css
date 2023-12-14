@@ -215,7 +215,6 @@ ol {
   line-height: 120%;
   letter-spacing: 0.4px;
   margin-bottom: 8px;
-  display: flex;
 }
 
 .list-element {
@@ -256,10 +255,6 @@ ol {
   margin-bottom: 72px;
 }
 
-.container-section-four {
-  padding: 32px 0 32px;
-}
-
 .image-our-team-jobs-content {
   gap: 24px;
 }
@@ -296,14 +291,16 @@ ol {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.our-team-names {
+.container-section-four {
   display: flex;
-  width: 232px;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  gap: 8px;
+  padding: 32px 0 32px;
+}
 
+.our-team-names {
+  gap: 8px;
   background-color: #ffffffff;
 }
 
@@ -320,6 +317,66 @@ ol {
   line-height: 150%;
   letter-spacing: 0.32px;
   background-color: #ffffffff;
+}
+
+.blue-circle {
+  width: 40px;
+  height: 40px;
+  background-color: var(--blue-color);
+  border-radius: 50%;
+  display: block;
+  justify-content: center;
+}
+
+.social-media-parent {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.color {
+  background: #e7e9fc;
+}
+
+.icons-app {
+  color: var(--cloud-color);
+}
+
+.customers-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0 120px;
+}
+
+.customers-title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111.111%;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.custemers-child {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.logo-section {
+  width: 168px;
+  height: 88px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+}
+
+.test {
 }
 
 .footer-paragraf {
