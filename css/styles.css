@@ -196,6 +196,11 @@ ol {
   margin-bottom: 8px;
 }
 
+.svg-weight {
+  width: 64px;
+  height: 64px;
+}
+
 .section-two {
   display: block;
   padding: 120px 0 120px;
@@ -236,8 +241,8 @@ ol {
 
 .section-tree-photo {
   display: block;
-  padding-right: 156px;
-  padding-left: 156px;
+  /* padding-right: 156px;
+  padding-left: 156px; */
   padding-bottom: 120px;
 }
 
