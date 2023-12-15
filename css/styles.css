@@ -322,13 +322,24 @@ ol {
   background-color: #ffffffff;
 }
 
+.blue-circle:focus,
+.blue-circle:hover {
+  background-color: #31D0AA;
+}
+
 .blue-circle {
   width: 40px;
   height: 40px;
   background-color: var(--blue-color);
   border-radius: 50%;
-  display: block;
+  display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.icons-size-sociallinks {
+  width: 16px;
+  height: 16px;
 }
 
 .social-media-parent {
@@ -366,9 +377,7 @@ ol {
 
 .custemers-child {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-direction: row;
+  gap: 24px;
 }
 
 .logo-section {
@@ -377,9 +386,15 @@ ol {
   flex-shrink: 0;
   border-radius: 4px;
   border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.test {
+.icons-size-bott {
+  width: 104px;
+  height: 56px;
+ 
 }
 
 .footer-paragraf {
