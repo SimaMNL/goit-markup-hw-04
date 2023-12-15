@@ -177,12 +177,14 @@ ol {
 .main-section {
   display: block;
   padding: 188px 0 188px;
-  /* background-image: url(../images/people-office.jpg); */
-  background-color: var(--GREY, rgba(46, 47, 66, 0.4));
-
-  background: url(../images/people-office.jpg),
-    lightgray 0px -167.766px / 100% 139.922% no-repeat;
-
+  /* background-image: url(../images/people-office.jpg);
+  background: 
+  lightgray 0px -167.766px / 100% 139.922% no-repeat; */
+  background-image: linear-gradient(
+       var(--white-color, rgba(46, 47, 66, 0.4),
+       var(--GREY, rgba(41, 42, 59, 0.4)
+     ),
+     url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
