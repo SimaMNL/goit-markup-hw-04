@@ -8,6 +8,7 @@
   --corn-flower: #e7e9fc;
   --cloud-color: #f4f4fd;
   --ocean-color: #404bbf;
+  #8e8f99
 }
 
 /* Global style */
@@ -378,7 +379,13 @@ ol {
 .custemers-child {
   display: flex;
   gap: 24px;
+  fill: #31D0AA;
 }
+/* 
+.logo-section:hover,
+.logo-section:focus {
+  color: var(--ocean-color);
+} */
 
 .logo-section {
   width: 168px;
@@ -389,11 +396,17 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
+/* 
+.icons-size-bott:focus,:hover {
+  fill: var(--blue-color);
+} */
 
 .icons-size-bott {
   width: 104px;
   height: 56px;
+  fill: #8e8f99;
  
 }
 
