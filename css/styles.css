@@ -379,7 +379,6 @@ ol {
 .custemers-child {
   display: flex;
   gap: 24px;
-  fill: #31D0AA;
 }
 /* 
 .logo-section:hover,
@@ -398,10 +397,10 @@ ol {
   justify-content: center;
 
 }
-/* 
+
 .icons-size-bott:focus,:hover {
   fill: var(--blue-color);
-} */
+}
 
 .icons-size-bott {
   width: 104px;
