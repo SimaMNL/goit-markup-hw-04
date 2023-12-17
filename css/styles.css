@@ -8,7 +8,6 @@
   --corn-flower: #e7e9fc;
   --cloud-color: #f4f4fd;
   --ocean-color: #404bbf;
-  #8e8f99
 }
 
 /* Global style */
@@ -53,8 +52,8 @@ ol {
 
 .header-container {
   border-bottom: 1px solid #e7e9fc;
-   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
-  
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .nav-container {
@@ -180,8 +179,10 @@ ol {
 .main-section {
   display: block;
   padding: 188px 0 188px;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-   rgba(46, 47, 66, 0.7)),
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -337,14 +338,15 @@ ol {
   justify-content: center;
 }
 
-.link-social-media:hover,:focus {
-  background-color: #404bbf ;
-  background-color: #404bbf ;
+.link-social-media:hover,
+:focus {
+  background-color: #404bbf;
+  background-color: #404bbf;
 }
 
 .blue-circle:focus,
 .blue-circle:hover {
-  background-color: #31D0AA;
+  background-color: #31d0aa;
 }
 
 .blue-circle {
@@ -358,7 +360,7 @@ ol {
 }
 
 .icons-size-sociallinks {
- fill: #f4f4fd;
+  fill: #f4f4fd;
 }
 
 .social-media-parent {
@@ -413,19 +415,17 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
-.icons-size-bott:hover,:focus {
+.icons-size-bott:hover,
+:focus {
   fill: var(--blue-color);
-  
 }
 
 .icons-size-bott {
   width: 104px;
   height: 56px;
   fill: #8e8f99;
- 
 }
 
 .footer-paragraf {
@@ -439,7 +439,6 @@ ol {
 }
 
 .address-footer {
-  
 }
 
 .test12 {
@@ -480,13 +479,13 @@ ol {
 }
 
 .social-media-footer {
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 150%;
-letter-spacing: 0.32px;
-color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  color: white;
 }
 
 /* Portfolio page */
