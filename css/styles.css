@@ -322,12 +322,6 @@ ol {
   background-color: #ffffffff;
 }
 
-.social-media {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-
 .link-social-media {
   width: 100%;
   height: 100%;
