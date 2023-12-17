@@ -188,6 +188,7 @@ ol {
   background-size: cover;
   max-width: 1440px;
   background-position: center;
+  margin-inline: auto;
 }
 
 .list-element > .svg-icons {
@@ -367,11 +368,6 @@ ol {
   color: var(--cloud-color);
 }
 
-.customers-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .customers-section {
   display: flex;
   justify-content: center;
@@ -381,6 +377,9 @@ ol {
 }
 
 .customers-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -395,11 +394,6 @@ ol {
   display: flex;
   gap: 24px;
 }
-
-/* .logo-section:hover,
-.logo-section:focus {
-  border: 1px solid var(--ocean-color);
-} */
 
 .logo-section {
   width: 168px;
@@ -438,13 +432,6 @@ ol {
   letter-spacing: 0.32px;
   max-width: 264px;
   margin-top: 16px;
-}
-
-.address-footer {
-}
-
-.test12 {
-  display: flex;
 }
 
 .social-media-footer-da {
