@@ -394,6 +394,7 @@ ol {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   margin-bottom: 72px;
+  color: var(--navy-blue-color);
 }
 
 .custemers-child {
@@ -415,6 +416,10 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.section-5-svg {
+  fill: currentColor;
 }
 
 .icons-size-bott:hover,
@@ -673,4 +678,13 @@ ol {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.title-footer-sec {
+  margin-right: 120px;
 }
