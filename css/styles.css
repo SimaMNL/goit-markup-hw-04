@@ -407,7 +407,7 @@ ol {
   flex-shrink: 0;
 }
 
-.section-5-svg {
+.section-customers-svg {
   fill: currentColor;
 }
 
@@ -526,8 +526,11 @@ ol {
 .navigation-button:hover,
 .navigation-button:focus {
   color: #ffffffff;
-  background-color: var(--ocean-color);
+  background: var(--ocean-color);
   border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .navigation-button {
   color: var(--blue-color);
@@ -543,9 +546,6 @@ ol {
   border: 1px solid var(--corn-flower);
   align-items: flex-start;
   border-radius: 4px;
-  /* background: var(--OCEAN, #404bbf); */
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .navigation-gab-button {
