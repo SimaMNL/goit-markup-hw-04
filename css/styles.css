@@ -323,6 +323,27 @@ ol {
   background-color: #ffffffff;
 }
 
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.link-social-media {
+  width: 100%;
+  height: 100%;
+  background-color: var(--blue-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-social-media:hover,:focus {
+  background-color: #404bbf ;
+  background-color: #404bbf ;
+}
+
 .blue-circle:focus,
 .blue-circle:hover {
   background-color: #31D0AA;
@@ -339,8 +360,7 @@ ol {
 }
 
 .icons-size-sociallinks {
-  width: 16px;
-  height: 16px;
+ fill: #f4f4fd;
 }
 
 .social-media-parent {
